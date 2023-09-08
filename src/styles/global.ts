@@ -21,7 +21,16 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     button {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
       cursor: pointer;
+
+      transition: filter 200ms;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
     }
   }
 `;
