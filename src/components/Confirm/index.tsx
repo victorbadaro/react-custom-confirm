@@ -1,8 +1,5 @@
 import { ConfirmButtonsContainer, ConfirmContainer, ConfirmContentContainer } from './styles';
-
-interface ConfirmProps {
-  message: string;
-}
+import { ConfirmProps } from './types';
 
 export function Confirm({ message }: ConfirmProps) {
   return (
